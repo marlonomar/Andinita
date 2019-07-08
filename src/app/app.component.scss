@@ -11,3 +11,21 @@ section{
     margin-top: 229px;
 }
 
+
+@media (min-width:320px){
+    header{
+        height:250px;
+    }
+}
+
+@media (min-width:768px){
+    header{
+        height:300px;
+    }
+}
+
+@media (min-width:1024px){
+    header{
+        height: 400px;
+    }
+}
