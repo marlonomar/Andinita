@@ -1,18 +1,72 @@
 .andinita-marca{
+    width: 100%;
     .titulo{
         h1{
-            font-size: 80px;
-            font-family: 'Times New Roman', Times, serif;
-            font-weight: bold;
-            color: white;
-            
-        }
-    }
-    .logo{
-        img{
-            width: 300px;
-            position: absolute;
-            top: -65px;
+            color: #fff;
+            text-align: right;
+            font-size: 90px;
         }
     }
 }
+
+@media (min-width:100px) and (min-width:320px){
+
+    .andinita-marca{
+        width: 100%;
+        .titulo{
+            h1{
+                font-size: 50px;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+
+
+@media (min-width:375px){
+
+    .andinita-marca{
+        width: 100%;
+        .titulo{
+            h1{
+                font-size: 50px;
+                text-align: center;
+                padding: 4px;
+            }
+        }
+    }
+
+}
+
+@media (min-width:425px){
+
+    .andinita-marca{
+        width: 100%;
+        .titulo{
+            h1{
+                font-size: 57px;
+                text-align: center;
+                padding: 4px;
+            }
+        }
+    }
+
+}
+
+@media (min-width:768px){
+
+    .andinita-marca{
+        width: 100%;
+        .titulo{
+            h1{
+                font-size: 71px;
+                text-align: center;
+                padding: 18px;
+            }
+        }
+    }
+
+}
+
