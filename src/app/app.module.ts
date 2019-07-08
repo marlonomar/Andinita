@@ -7,6 +7,9 @@ import { NavegadorComponent } from './navegador/navegador.component';
 import { LogoComponent } from './logo/logo.component';
 import { SliderComponent } from './slider/slider.component';
 import { MensagemComponent } from './mensagem/mensagem.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { MensagemComponent } from './mensagem/mensagem.component';
     NavegadorComponent,
     LogoComponent,
     SliderComponent,
-    MensagemComponent
+    MensagemComponent,
+    ProdutosComponent,
+    GalleryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
