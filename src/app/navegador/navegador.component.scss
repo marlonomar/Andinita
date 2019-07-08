@@ -1,0 +1,26 @@
+.ms-navegador{
+    width: 100%;
+    height:60px;
+    background: rgba(255, 131, 6, 0.5);
+    .navevagor{
+        width: 50%;
+        display: inline-block;
+        float: right;
+
+        ul{
+            a li{
+                display: inline-block;
+                list-style: none;
+                float: left;
+                padding: 8px 30px;
+                color: #fff;
+                font-size: 30px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            a li:hover{
+                background: rgba(0, 0, 0,.2);
+            }
+        }
+    }
+}
